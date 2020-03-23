@@ -9,7 +9,7 @@ The Data Structure included in the repository are:
 3) Stack impelementation using Linked List
 4) Queue implementation using Linked List
 5) Binary Tree implementation using Linked List
-    In-order traversal using recursion
-    Post-order traversal using recursion
-    Pre-order traversal using recusion
-    Level-order traversal using Queue
+    <ul>• In-order traversal using recursion</ul>
+   	<ul>• Post-order traversal using recursion </ul>
+   	<ul>• Pre-order traversal using recusion</ul>
+   	<ul>• Level-order traversal using Queue</ul>
