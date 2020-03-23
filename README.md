@@ -1,4 +1,4 @@
-# Data-Structures-Java-
+# Data-Structures-Java
 
 This repository contains the Data Structure implemention in Java with comment for references.
 
