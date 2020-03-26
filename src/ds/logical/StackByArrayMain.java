@@ -1,4 +1,4 @@
-package logical;
+package ds.logical;
 
 public class StackByArrayMain {
 

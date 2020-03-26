@@ -1,6 +1,6 @@
-package physical;
+package ds.physical;
 
-import nodes.DoubleNode;
+import ds.nodes.DoubleNode;
 
 public class DoubleLinkedList {
 	

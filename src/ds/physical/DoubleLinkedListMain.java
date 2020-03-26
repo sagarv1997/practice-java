@@ -1,4 +1,4 @@
-package physical;
+package ds.physical;
 
 public class DoubleLinkedListMain {
 

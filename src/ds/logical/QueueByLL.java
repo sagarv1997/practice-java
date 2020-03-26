@@ -1,6 +1,6 @@
-package logical;
+package ds.logical;
 
-import physical.SingleLinkedList;
+import ds.physical.SingleLinkedList;
 
 public class QueueByLL {
 

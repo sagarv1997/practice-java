@@ -1,6 +1,6 @@
-package physical;
+package ds.physical;
 
-import nodes.SingleNode;
+import ds.nodes.SingleNode;
 
 public class SingleLinkedList {
 	// Setting Global variables for head and tail

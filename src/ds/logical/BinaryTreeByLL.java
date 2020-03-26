@@ -1,9 +1,9 @@
-package logical;
+package ds.logical;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-import nodes.BinaryNode;
+import ds.nodes.BinaryNode;
 
 public class BinaryTreeByLL {
 

@@ -1,6 +1,6 @@
-package logical;
+package ds.logical;
 
-import nodes.BinaryNode;
+import ds.nodes.BinaryNode;
 
 public class BinaryTreeByLLMain {
 	

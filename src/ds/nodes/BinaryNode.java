@@ -1,4 +1,4 @@
-package nodes;
+package ds.nodes;
 
 public class BinaryNode {
 	
