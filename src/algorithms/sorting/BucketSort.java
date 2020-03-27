@@ -27,26 +27,30 @@ public class BucketSort {
 		// Create an array of buckets
 		@SuppressWarnings("unchecked")
 		ArrayList<Integer>[] buckets = new ArrayList[numberOfBuckets];
-		
+
 		// Initializing array inside array
-		for (int i = 0; i < buckets.length; i ++) {
-			buckets[i] = new ArrayList<Integer>();	
+		for (int i = 0; i < buckets.length; i++) {
+			buckets[i] = new ArrayList<Integer>();
 		}
-		
-		for (int value: arr) {
-			int bucketNumber = (int) Math.ceil((value * numberOfBuckets) / maxValue); // Formula to find appropriate value
-			buckets[bucketNumber - 1].add(value);
+
+		for (int value : arr) {
+			int bucketNumber = (int) Math.ceil((value * numberOfBuckets) / maxValue); // Formula to find appropriate
+																						// value
+			if (bucketNumber == 0) {
+				buckets[bucketNumber].add(value);
+			} else
+				buckets[bucketNumber - 1].add(value);
 		}
-		
+
 		// Sorting Buckets using sorting method from Collections
-		for (ArrayList<Integer> bucket: buckets) {
+		for (ArrayList<Integer> bucket : buckets) {
 			Collections.sort(bucket);
 		}
-		
+
 		// Concatenate Array
-		int index=0;
-		for(ArrayList<Integer> bucket: buckets) {
-			for(int value: bucket) {
+		int index = 0;
+		for (ArrayList<Integer> bucket : buckets) {
+			for (int value : bucket) {
 				arr[index] = value;
 				index++;
 			}
