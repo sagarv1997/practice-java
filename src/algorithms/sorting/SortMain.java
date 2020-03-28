@@ -30,11 +30,15 @@ public class SortMain {
 //		int insertionArr[] = is.sort(arr);
 //		sorting.printArray(insertionArr);
 
-		System.out.println("Result from Bucket Sort");
-		BucketSort bs = new BucketSort();
-		int bucketArr[] = bs.sort(arr);
-		sorting.printArray(bucketArr);
+//		System.out.println("Result from Bucket Sort");
+//		BucketSort bs = new BucketSort();
+//		int bucketArr[] = bs.sort(arr);
+//		sorting.printArray(bucketArr);
 
+		System.out.println("Result from Merge Sort");
+		MergeSort ms = new MergeSort();
+		int mergeArr[] = ms.sort(arr, 0 , arr.length - 1);
+		sorting.printArray(mergeArr);
 	}
 
 }
