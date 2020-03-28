@@ -14,7 +14,7 @@ public class MergeSort {
 	}
 
 	public void merge(int[] A, int left, int middle, int right) {
-
+		// Adding 1 extra space in both for maximum value
 		int[] leftTmpArray = new int[middle - left + 2]; // Create tmp arrays
 		int[] rightTmpArray = new int[right - middle + 1];
 
@@ -26,6 +26,8 @@ public class MergeSort {
 		leftTmpArray[middle - left + 1] = Integer.MAX_VALUE; // Merge values and insert into Array 'A'
 		rightTmpArray[right - middle] = Integer.MAX_VALUE;
 		int i = 0, j = 0;
+		
+		// Because both left and right arrays are already sorted
 		for (int k = left; k <= right; k++) {
 			if (leftTmpArray[i] < rightTmpArray[j]) {
 				A[k] = leftTmpArray[i];
