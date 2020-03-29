@@ -1,6 +1,6 @@
-# Data-Structures-Java
+# Coding-Practice
 
-This repository contains the Data Structure implemention in Java with comment for references.
+This repository contains the Data Structure implemention and Few Algorithms in Java with comment for references.
 
 The Data Structure included in the repository are:
 
